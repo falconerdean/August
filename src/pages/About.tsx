@@ -35,27 +35,19 @@ export function About() {
                   <ul className="space-y-3">
                     <li className="flex items-start gap-2">
                       <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>Licensed Professional Counselor (LPC) [License Number]</span>
+                      <span>Licensed Professional Counselor #LPC 0005602</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>Natural Medicine Practitioner Certification [Certification Details]</span>
+                      <span>Licensed Clinical Facilitator #NMCF 0000008</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>[Degree information, e.g., Master's in Counseling Psychology from X University]</span>
+                      <span>Certified Autism Treatment provider</span>
                     </li>
                     <li className="flex items-start gap-2">
                       <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>Specialized training in Natural Medicine-Assisted therapy protocols</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>Advanced certification in sex therapy and relationship counseling</span>
-                    </li>
-                    <li className="flex items-start gap-2">
-                      <Award className="h-5 w-5 text-[rgb(var(--color-persian-green))] mt-1" />
-                      <span>[Additional relevant certifications and training]</span>
+                      <span>Domestic Violence Full Operating Provider (ret 2020)</span>
                     </li>
                   </ul>
                 </div>
@@ -63,7 +55,7 @@ export function About() {
             </div>
             <div>
               <img
-                src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=800&q=80"
+                src="/img/headshot.webp"
                 alt="Vincent Bruno"
                 className="w-full rounded-xl shadow-lg mb-8"
               />

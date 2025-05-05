@@ -19,7 +19,7 @@ const testimonials = [
     title: 'Family Therapist',
     practice: 'Wellness Counseling Center',
     location: 'Portland, OR',
-    image: 'https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=600&q=80',
+    image: '/img/headshot.webp',
     quote: "The HIPAA compliance and client management tools have transformed how I run my practice. The online scheduling system alone has saved me countless hours. My clients frequently comment on how professional and easy-to-use the website is.",
     rating: 5,
     specialty: 'Family Therapy'

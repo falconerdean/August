@@ -17,7 +17,7 @@ export function Navigation() {
         <div className="flex items-center justify-between px-4 py-4 sm:px-6 lg:px-8">
           <Link to="/" className="group">
             <img 
-              src="/src/img/transparentlogo.png" 
+              src="/img/transparentlogo.png" 
               alt="August Advice Therapy" 
               className="h-12 w-auto"
             />

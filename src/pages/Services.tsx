@@ -68,16 +68,47 @@ export function Services() {
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg text-navy-700 mb-6">
-                  At August Advice Counseling, we specialize in Natural Medicine-Assisted Therapy—a powerful, evidence-based approach for individuals who have not found relief through conventional treatment methods. This confidential and anonymous therapeutic process harnesses the healing potential of natural medicine to help you process trauma, reduce symptoms of PTSD, and create lasting positive change.
+                  Before your journey:
                   <br /><br />
-
-                  Our approach combines the transformative effects of natural medicine with professional therapeutic guidance in a safe, controlled environment. This integration allows you to access emotional material that may be difficult to reach through talk therapy alone, helping to rewire neural pathways associated with trauma and create new perspectives on challenging experiences.
+                  Comprehensive Assessment
+                  <br />
+                  "You wouldn't go on a trip without checking the weather"
                   <br /><br />
-
-                  The therapy is particularly effective for veterans, first responders, and individuals struggling with treatment-resistant depression, anxiety, hypervigilance, and substance use concerns. Many clients report significant reduction in symptoms after just one session, with continued improvement during the integration process.
+                  We use peer reviewed and validated instruments for the purpose of both harm reduction and treatment focus.
                   <br /><br />
-
-                  Throughout your journey, confidentiality and anonymity are our highest priorities. We create a judgment-free space where healing can occur naturally, guided by licensed professionals with specialized training in natural medicine therapy and trauma recovery.
+                  Collection of your personal mental health history and family of origin data to understand your trauma and guide and focus your natural medicine assisted experience.
+                  <br /><br />
+                  Collection of any health related or medicine related data that might impact your experience, our goal is harm reduction.
+                  <br /><br />
+                  Preparation Sessions
+                  <br />
+                  "You have to know where you've been to figure out where your at"
+                  <br /><br />
+                  Preparation Sessions: 2-3 sessions to collect biographical data and review instrument results, identify treatment goals and build rapport with your licensed facilitator. This part of treatment can be covered by insurance.
+                  <br /><br />
+                  Medicine Session
+                  <br />
+                  "Once we've set intention and consented to the healing it is the medicine that holds sway"
+                  <br /><br />
+                  Medicine Session: A 5-6 hour guided therapeutic experience in a comfortable, safe setting with professional support. This will include a musical playlist reflective of the music you were exposed to during early childhood and adolescence. This playlist is developed between your facilitator and yourself.
+                  <br /><br />
+                  Snacks are provided to you during the session, feel free to bring your own or enjoy ours. Currently this portion of the process is NOT covered by insurance.
+                  <br /><br />
+                  Integration support
+                  <br />
+                  "It's not what happens to you, it's what you do with the experience."
+                  <br /><br />
+                  Integration Support: We offer four follow-up sessions to process insights and support the clients efforts to make and maintain meaningful changes in your daily life. You will have the opportunity to engage in the therapeutic processing of your experience. This portion of the process may be covered by your insurance.
+                  <br /><br />
+                  Treatment Goals
+                  <br />
+                  "While we cannot make any guarantees, our hope is that the experience creates space for personal change"
+                  <br /><br />
+                  Symptom Reduction: Relief from flashbacks, hypervigilance, reactivity, and emotional numbness
+                  <br /><br />
+                  Improved Relationships: Enhanced ability to connect with self and others and communicate needs effectively
+                  <br /><br />
+                  Emotional Resilience: Greater capacity to manage triggers and stressful situations with balance, dignity and clarity
                 </p>
                 <Link
                   to="/contact"
@@ -88,37 +119,17 @@ export function Services() {
                 </Link>
               </div>
               <div className="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-[rgb(var(--color-light-sea-green)/0.1)] relative z-10">
-                <h3 className="text-xl font-bold text-navy-800 mb-4">Treatment Benefits:</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Comprehensive Assessment:</strong> Thorough evaluation of your mental health history and readiness for Natural Medicine-Assisted Therapy</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Preparation Sessions:</strong> 2-3 sessions to establish goals, build rapport, and prepare for your medicine session</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Medicine Session:</strong> A 5-6 hour guided therapeutic experience in a comfortable, safe setting with professional support</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Integration Support:</strong> 4 follow-up sessions to process insights and incorporate meaningful changes into your daily life</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Symptom Reduction:</strong> Relief from flashbacks, hypervigilance, sleep disturbances, and emotional numbness</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Improved Relationships:</strong> Enhanced ability to connect with others and communicate needs effectively</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Emotional Resilience:</strong> Greater capacity to manage triggers and stressful situations with balance and clarity</span>
-                  </li>
-                </ul>
+                <p className="text-lg text-navy-700 mb-6">
+                  At August Advice Counseling, we specialize in Natural Medicine-Assisted Therapy—a powerful approach to trauma treatment for individuals who have not found relief through conventional treatment methods. 
+                  <br /><br />
+                  This confidential and anonymous therapeutic process harnesses the healing potential of natural medicine to help you process trauma, reduce symptoms of PTSD, and create lasting positive change.
+                  <br /><br />
+                  Our approach combines the neuroplasticity created by natural medicine with professional therapeutic guidance in a safe, controlled environment. This integration allows you to access emotional material that may be difficult to reach through talk therapy alone, helping to rewire neural pathways associated with trauma and create new perspectives on challenging experiences.
+                  <br /><br />
+                  The therapy is particularly effective for victims of trauma, veterans, first responders, and individuals struggling with treatment-resistant depression, anxiety, hypervigilance, and substance use concerns. Many clients report significant reduction in symptoms after just one session, with continued improvement during the integration process.
+                  <br /><br />
+                  Throughout your journey, your confidentiality, safety and anonymity are our highest priorities. We create a judgment-free space where healing can occur naturally, guided by licensed professionals with specialized training in natural medicine therapy and trauma recovery.
+                </p>
               </div>
             </div>
             
@@ -176,90 +187,25 @@ export function Services() {
           </div>
         </div>
 
-        {/* Sex Therapy */}
-        <div id="sex-therapy" className="mb-24 scroll-mt-24">
-          <div className="bg-[rgb(var(--color-persian-green))] rounded-2xl p-8 mb-[-4rem] relative z-10 flex items-center justify-center">
-            <h2 className="text-3xl font-bold text-white text-center m-0">Specialized Sex Therapy</h2>
-          </div>
-          <div className="bg-[rgb(var(--color-light-sea-green)/0.05)] rounded-2xl p-8 pt-20 relative z-0">
-            <div className="grid md:grid-cols-2 gap-8">
-              <div>
-                <p className="text-lg text-navy-700 mb-6">
-                  Our sex therapy services provide a safe, non-judgmental space to address intimate concerns and enhance relationships. We specialize in helping individuals and couples navigate challenges related to desire, intimacy, and sexual function using evidence-based therapeutic approaches.
-                  <br /><br />
-
-                  Whether you're dealing with desire discrepancies, communication issues, or the impact of past experiences on your current relationships, our specialized therapy can help you develop healthier patterns and deeper connections.
-                  <br /><br />
-
-                  We work with clients from all backgrounds and relationship structures, offering culturally sensitive care that respects your unique experiences and goals. Our approach combines traditional therapeutic techniques with modern understanding of sexuality and relationships.
-                  <br /><br />
-
-                  All sessions are completely confidential, providing you with a secure environment to explore sensitive topics and work toward positive change in your intimate life.
-                </p>
-                <Link
-                  to="/contact"
-                  className="primary-button inline-flex"
-                >
-                  Schedule Your Consultation
-                  <Calendar className="ml-2 h-5 w-5" />
-                </Link>
-              </div>
-              <div className="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-[rgb(var(--color-light-sea-green)/0.1)] relative z-10">
-                <h3 className="text-xl font-bold text-navy-800 mb-4">Treatment Benefits:</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Comprehensive Assessment:</strong> Thorough evaluation of relationship dynamics and sexual health concerns</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Individual or Couple Sessions:</strong> Flexible therapy options to best suit your needs</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Communication Skills:</strong> Learn effective ways to discuss intimate topics with partners</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Intimacy Building:</strong> Techniques to enhance emotional and physical connection</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Trauma-Informed Care:</strong> Sensitive support for addressing past experiences</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Customized Treatment Plans:</strong> Tailored approaches for your specific situation</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Educational Resources:</strong> Access to materials and exercises for continued growth</span>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* Individual Therapy */}
         <div id="individual-therapy" className="mb-24 scroll-mt-24">
           <div className="bg-[rgb(var(--color-persian-green))] rounded-2xl p-8 mb-[-4rem] relative z-10 flex items-center justify-center">
-            <h2 className="text-3xl font-bold text-white text-center m-0">Standard Therapy</h2>
+            <h2 className="text-3xl font-bold text-white text-center m-0">Conventional Individual and Family Counseling</h2>
           </div>
           <div className="bg-[rgb(var(--color-light-sea-green)/0.05)] rounded-2xl p-8 pt-20 relative z-0">
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <p className="text-lg text-navy-700 mb-6">
-                  Our individual therapy services offer personalized support for a wide range of mental health challenges and personal growth goals. Using evidence-based approaches, we help you develop insights, coping strategies, and practical tools for creating positive change in your life.
+                  We know it can be difficult to ask for help, and we honor your commitment to improving your mental and emotional health through therapy.
                   <br /><br />
 
-                  Whether you're dealing with anxiety, depression, life transitions, or seeking personal development, our therapeutic approach is tailored to your unique needs and circumstances. We integrate various therapeutic modalities to provide comprehensive care that addresses both immediate concerns and long-term well-being.
+                  We specialize in helping people recover from trauma and have extensive experience working with survivors of domestic violence, child abuse, veterans, active duty military, and their families. We know that our clients may struggle with shame, self-doubt and self blame and we want to help them move on from wherever they're stuck.
                   <br /><br />
 
-                  Our sessions provide a confidential, supportive environment where you can explore challenges, process emotions, and work toward your goals. We specialize in helping clients who may have found traditional therapy approaches insufficient, offering innovative solutions for lasting change.
+                  We know that not all trauma leaves marks you can see; many of our clients carry wounds from their childhood experiences. Some come to us with chronic traumas from living with people with disabilities and mental health conditions of their own.
                   <br /><br />
 
-                  Through our collaborative approach, we help you develop greater self-awareness, emotional resilience, and the skills needed to navigate life's challenges effectively.
+                  We help people find peace through acceptance.
                 </p>
                 <Link
                   to="/contact"
@@ -270,37 +216,11 @@ export function Services() {
                 </Link>
               </div>
               <div className="bg-white/95 backdrop-blur-sm rounded-xl p-8 shadow-lg border border-[rgb(var(--color-light-sea-green)/0.1)] relative z-10">
-                <h3 className="text-xl font-bold text-navy-800 mb-4">Treatment Benefits:</h3>
-                <ul className="space-y-4">
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Personalized Treatment:</strong> Customized therapy plans aligned with your specific goals</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Evidence-Based Methods:</strong> Integration of proven therapeutic techniques</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Emotional Processing:</strong> Safe space to explore and understand feelings</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Coping Strategies:</strong> Practical tools for managing stress and anxiety</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Personal Growth:</strong> Support for self-discovery and development</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Life Skills:</strong> Development of communication and boundary-setting abilities</span>
-                  </li>
-                  <li className="flex items-start gap-3">
-                    <CheckCircle2 className="h-6 w-6 text-teal-600 flex-shrink-0" />
-                    <span className="text-navy-700"><strong>Ongoing Support:</strong> Regular check-ins and progress monitoring</span>
-                  </li>
-                </ul>
+                <img
+                  src="/img/mushrooms.webp"
+                  alt="Natural Medicine-Assisted Therapy"
+                  className="w-full h-full object-cover rounded-lg"
+                />
               </div>
             </div>
           </div>
